@@ -1,0 +1,77 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Trirong', serif;
+    color: #000;
+    display: inline-block;
+    width: 230px;
+    text-align: center;
+    /*background-color: yellow;*/
+    margin-left: 50px;
+}
+
+#receiptContainer {
+  margin-left: 50px;
+  color: #aaa;
+}
+
+#productName {
+    display: inline-block;
+    width: 180px;
+    /*background-color: aqua;*/
+}
+
+#productPrice {
+    display: inline-block;
+    width: 50px;
+    /*background-color: springgreen;*/
+}
+
+#totalCost {
+    font-family: 'Trirong', serif;
+    color: red;
+    display: inline-block;
+    width: 230px;
+    text-align: center;
+    /*background-color: seashell;*/
+}
+
+.addItems {
+  margin-left: 50px;
+}
+
+
+.btn {
+  padding: 14px 24px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: 0 none;
+}
+
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+  border-radius: 20px;
+}
+
+.btn-primary.outline {
+	border: 2px solid #EC7063;
+	color: #EC7063;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #CB4335;
+	border-color: #CB4335;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #EC7063;
+	color: #EC7063;
+	box-shadow: none;
+}
